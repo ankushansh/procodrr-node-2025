@@ -9,7 +9,7 @@ Processor is a broader term that can refer to any chip that processes data.
 GPU → Graphics processor
 
 DSP → Digital signal processor
-p;l;l
+
 NPU → Neural processor
 
 CPU is specifically the general-purpose
@@ -25,4 +25,11 @@ Think of it like this:
 Processor (CPU) = The whole “brain.”
 
 Core = One “thinking unit” inside that brain.
+> os.availableParallelism() => checking the cores of the CPU
+
+OS => It si a software which manages the hardware/ system resources
+Kernal => It is also a software which user to manage between OS and Hardware
 */
+
+const a = process;
+console.log(a);
